@@ -3,3 +3,6 @@ gen:
 
 test:
 	go test ./...
+
+run:
+	go run . -c ./config/config.toml

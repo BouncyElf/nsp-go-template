@@ -1,8 +1,8 @@
 syntax = "proto3";
 
-option go_package = "nsp-go-template/pb/valley";
+option go_package = "nsp-go-template/pb";
 
-package valley;
+package pb;
 
 service Valley {
 	rpc Echo(EchoRequest) returns (EchoResponse);
