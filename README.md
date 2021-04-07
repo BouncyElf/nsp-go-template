@@ -1,0 +1,1 @@
+# Nsp Go Template
