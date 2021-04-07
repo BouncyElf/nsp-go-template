@@ -1,0 +1,4 @@
+[service]
+name = "nsp-go-template"
+addr = ":4321"
+network = "tcp"
