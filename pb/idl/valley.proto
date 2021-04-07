@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option go_package = "nsp-go-template/pb/valley";
+
+package valley;
+
+service Valley {
+	rpc Echo(EchoRequest) returns (EchoResponse);
+}
+
+message EchoRequest {
+	string say = 1;
+}
+
+message EchoResponse {
+	string echo = 1;
+}
+
